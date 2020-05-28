@@ -51,9 +51,6 @@ public class ConsultasJPQLFuncionario {
 	
 		for(Funcionario func: funcionarios) {
 			System.out.println(func.getId()+", "+func.getNome()+", "+func.getCargo()+", "+func.getSalario());
-		}
-	
-		
+		}	
 	}		
 }
-

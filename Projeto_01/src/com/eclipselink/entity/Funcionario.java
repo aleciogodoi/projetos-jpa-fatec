@@ -12,9 +12,10 @@ import javax.persistence.Table;
 @Table
 //@NamedQuery(query = "Select e from Funcionario e where e.idFuncionario = :id", name = "find Funcionario id")
 @NamedQueries({
-	@NamedQuery(name = "find Funcionario id", query = "Select e from Funcionario e where e.idFuncionario = :id"),
+	@NamedQuery(name = "find Funcionario id"  , query = "Select e from Funcionario e where e.idFuncionario = :id"),
 	@NamedQuery(name = "find Funcionario nome", query = "Select e from Funcionario e where e.nome like :nome")
 })
+
 public class Funcionario {
 
 	@Id
